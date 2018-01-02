@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湖北女子和卡卡西一起玩"
+        android:layout_toRightOf="@id/img"
+        android:layout_alignTop="@id/img"
+        android:id="@+id/title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新华网"
+        android:layout_toRightOf="@id/img"
+        android:layout_alignBottom="@id/img"
+        android:id="@+id/src"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4545跟帖"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/img"
+        android:layout_marginRight="6dp"
+        android:id="@+id/weiba"
+        />
+
+</RelativeLayout>

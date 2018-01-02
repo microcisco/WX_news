@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hs">#FFA9A9A9</color>
+    <color name="cs">#FFE9413D</color>
+    <color name="bs">#ffffff</color>
+    <color name="hss">#000000</color>
+    <color name="jhs">#f6513a</color>
+
+    <color name="huise">#acacac</color>
+</resources>
